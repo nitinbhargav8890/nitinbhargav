@@ -1,63 +1,57 @@
-body {
-  background-color: coral;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
 }
 
-.head {
-  color: darkblue;
+#login {
+    width: 650px;
+    background-color: rgb(22, 149, 233);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 
-h1 { font-size: 16px; }
-h3 { font-size: 8px; }
+section {
+    display: flex;
+    height: 100vh;
 
-#bglime {
-  background-color: #72ff72;
-}
-
-#bglime span {
-  color: red;
 }
 
-p {
-  color: white;
-  font-size: 14px;
+.mainsection {
+    align-items: center;
+    background-color: beige;
+    width: 700px;
+    text-transform: capitalize;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
 }
 
-#para {
-  color: green;
-  font-size: 10px;
+.sectionlogin {
+    height: 8vh;
+    margin-bottom: 8px;
+    width: 300px;
+    border-radius: 5px;
+    background-color: white;
+    border: 1px solid black;
+    justify-content: space-around;
 }
 
-p span {
-  color: black;
-  font-size: 18px;
+#container {
+    height: 9vh;
+    width: 300px;
+     margin-bottom: 8px;
+    background-color: rgb(30, 171, 226);
+    color: white;
+    border: 1px solid black;
+    border-radius: 8px;
+    align-items: center;
 }
 
-h4 {
-  font-size: 12px;
-}
-
-ul li {
-  color: white;
-  font-size: 8px;
-}
-
-a {
-  color: white;
-  text-decoration: none;
-}
-li:first-child a {
-  background-color: yellow;
-}
-li:nth-child(2) a {
-  background-color: blue;
-}
-
-ol li {
-  font-size: 8px;
-}
-ol li:nth-child(2) {
-  color: blue;
-}
-ol li:nth-child(3) {
-  color: red;
+.container2 {
+    text-decoration: none;
+    font-size: small;
+    text-transform: capitalize;
 }
